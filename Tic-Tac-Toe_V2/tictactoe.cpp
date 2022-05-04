@@ -5,5 +5,5 @@
 #include "tic_functions.hpp"
 
 int main(){
-    
+
 }
