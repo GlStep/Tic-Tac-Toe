@@ -39,7 +39,7 @@ int main(){
 	std::cout << "\n";
 
 	while(score1 < 1 || score2 < 1){
-		
+    		
 		conv_position1 = 0;
 		current_field(play_spaces);
 		std::cout << "\n" << player1_name << ", where do you want to play?\n";
