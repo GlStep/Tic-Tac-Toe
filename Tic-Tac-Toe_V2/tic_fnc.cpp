@@ -15,17 +15,21 @@ Field::Field()
 }
 
 //getting the new name of the Player and saving it
-std::string Player::new_name(int player_number) {
+std::string Player::set_name(int player_number) {
     std::string player_name;
     std::cout << "Player " << player_number << ". Please enter your name." << std::endl;
     std::cin >> player_name;
+
+    std::cout << player_name << ", welcome to a game of Tic Tac Toe" << std::endl;
+
+    player_name_ = player_name;
 
     return player_name;
 }
 
 //retirieving the name of the player for other purposes
 std::string Player::get_name() {
-    return player_name;
+    return player_name_;
 }
 
 //returns the value, in which row the player wants to play
