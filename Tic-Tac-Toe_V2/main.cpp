@@ -13,6 +13,8 @@ int main() {
     //Creating instance of the field, which will include all the field logic
     Field playing_field;
 
+    playing_field.start_game();
+
     //Starting by asking the name of the player
     player1.set_name(1);
     player2.set_name(2);
