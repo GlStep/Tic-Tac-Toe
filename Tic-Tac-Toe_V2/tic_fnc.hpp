@@ -25,6 +25,7 @@ private:
 
 public:
     Field();
+    void start_game();
     void show_field();
     int check_space();
     bool check_win(int row, int column);

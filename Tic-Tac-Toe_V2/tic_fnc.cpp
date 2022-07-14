@@ -46,6 +46,11 @@ int Player::data_player_column() {
     return column;
 }
 
+//displays a welcome message for starting the game
+void start_game() {
+    std::cout << "Welcome to a game of Tic Tac Toe!" << std::endl;
+}
+
 //before writing a X or O to field, check, if the field is already occupied
 int Field::check_space() {
     return 0;
