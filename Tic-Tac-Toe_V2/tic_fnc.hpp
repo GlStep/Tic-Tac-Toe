@@ -7,13 +7,13 @@
 
 class Player {
 private:
-    int row_, column_;
-    int player_number_;
+    int row_{}, column_{};
+    int player_number_{};
     std::string player_name_;
 
 public:
     Player();
-    std::string set_name(int player_number);
+    void set_name(int player_number);
     std::string get_name();
     void set_data_player_row();
     int get_data_player_row();
