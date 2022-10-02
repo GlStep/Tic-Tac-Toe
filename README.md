@@ -9,7 +9,3 @@ This is a simple version of the game written in C++. Because this was my first t
 ## Tic Tac Toe Version 2 (C++)
 
 This is the second try at the project with proper knowledge of classes in C++.
-
-## Tic Tac Toe (Rust)
-
-
