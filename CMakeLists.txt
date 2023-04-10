@@ -1,11 +1,5 @@
-cmake_minimum_required(VERSION 3.22)
-project(Tic_Tac_Toe)
+cmake_minimum_required(VERSION 3.10)
 
-set(CMAKE_CXX_STANDARD 14)
+project(Tic_Tac_Toe VERSION 1.0.0 LANGUAGES CXX)
 
-include_directories(Tic-Tac-Toe_V2)
-
-add_executable(Tic_Tac_Toe
-        Tic-Tac-Toe_V2/main.cpp
-        Tic-Tac-Toe_V2/tic_fnc.cpp
-        Tic-Tac-Toe_V2/tic_fnc.hpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
